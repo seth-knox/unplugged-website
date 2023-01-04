@@ -86,6 +86,111 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* ------ Base Header - Footer Styles ------- */
+  
+  header,
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+   }
+
+   header .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+   }
+
+   header nav{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+   }
+
+   header nav ul{
+    display: flex;
+    justify-content: space-around;
+   }
+
+   footer .social-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+   footer .social p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   /* ------ Mobile Styles - Homepage ------- */
+   .hero-area{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+   }
+
+   aside{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .features{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+   }
+
+   .features .features-items{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+   }
+
+   .reviews{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+   }
+
+   /* ------ About Page Styles ------- */
+   .mission{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .contact-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+   }
+
+   /* ------ FAQ Page Styles ------- */
+   .faq{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .faq .content-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+   }
+
+
+
 
 /* ==========================================================================
    Helper classes
