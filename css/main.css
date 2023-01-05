@@ -558,7 +558,7 @@ input[type=button] {
   /* General styles */
   .content-wrapper {
     max-width: 640px;
-    margin: 100px 0;
+    margin: 50px 0;
   }
 
   h2 {
@@ -691,7 +691,7 @@ input[type=button] {
     width: 12.5em;
     justify-content: space-between;
   }
-  
+
   footer .copyright {
     width: 100%;
   }
