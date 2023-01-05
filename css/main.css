@@ -266,8 +266,8 @@ footer .copyright {
 .hero-area h1 {
   font-size: 2.25em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-weight: 500; 
-  line-height: 1.2; 
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 /* Aside */
@@ -379,6 +379,22 @@ input[type=button] {
 
 .contact-content p {
   margin: 0;
+}
+
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 125%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* ==========================================================================
@@ -515,12 +531,12 @@ input[type=button] {
   h2 {
     font-size: 2.25em;
     line-height: 1.333;
-}
+  }
 
-h3 {
+  h3 {
     font-size: 1.5em;
     line-height: 1.25;
-}
+  }
 
   /* Header */
   header {
@@ -559,7 +575,8 @@ h3 {
     font-size: 3em;
     line-height: 1;
     margin: 0;
-}
+  }
+
   /* Aside */
   aside .content-wrapper {
     margin: 50px 0;
@@ -578,7 +595,7 @@ h3 {
   .features h2 {
     margin-bottom: 20px;
   }
-  
+
   .features article {
     display: flex;
     justify-content: center;
@@ -610,6 +627,7 @@ h3 {
     width: 75%;
     margin: 0;
   }
+
   /* Footer */
   footer .content-wrapper {
     width: 65%;
@@ -633,7 +651,7 @@ h3 {
   }
 
   footer p {
-      line-height: 1.285;
+    line-height: 1.285;
   }
 
   footer .copyright {
@@ -687,8 +705,8 @@ h3 {
 
   .faq h4,
   .faq p {
-      font-size: .875em;
-      line-height: 1.125;
+    font-size: .875em;
+    line-height: 1.125;
   }
 }
 
@@ -709,12 +727,12 @@ h3 {
 
   h3,
   h4 {
-      font-size: 1.875em;
+    font-size: 1.875em;
   }
 
   p {
-      font-size: 1.125em;
-      line-height: 1.333;
+    font-size: 1.125em;
+    line-height: 1.333;
   }
 
   /* Hero */
@@ -749,9 +767,9 @@ h3 {
 
   /* Reviews */
   .reviews h2 {
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
   }
-  
+
   .reviews article div {
     width: 42%;
   }
@@ -784,8 +802,8 @@ h3 {
 
   .faq h4,
   .faq p {
-      font-size: 1.125em;
-      line-height: 1;
+    font-size: 1.125em;
+    line-height: 1;
   }
 }
 
