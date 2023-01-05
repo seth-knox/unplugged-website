@@ -338,6 +338,11 @@ input[type=button] {
   margin: 0;
 }
 
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 /* Reviews */
 
 .reviews {
@@ -381,7 +386,7 @@ input[type=button] {
   margin: 0;
 }
 
-/*********
+/********* NOT NEEDED WITH RESPONSIVE GOOGLE MAP STYLING? *********
 .map figure {
   width: 100%;
   height: 0;
